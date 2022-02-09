@@ -1,7 +1,7 @@
 # Binary-nodejs-for-android
-Android由于开启selinux可能无法直接执行二进制文件
+Android由于selinux权限问题，可能无法直接执行二进制文件
 
-Android may not be able to execute binaries directly because SELinux is enabled
+Android may not be able to execute binary files directly due to SELinux permission problems
 ## 中文
 采用通过linux交叉编译出的node安卓二进制文件成品
 ### 使用方法
